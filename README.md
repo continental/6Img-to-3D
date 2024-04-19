@@ -1,6 +1,6 @@
 # 6Img-to-3D
 
-### [Project Page](https://6img-to-3d.github.io/6img-to-3D/) | [Videos](https://www.youtube.com/@6Img-to-3D) | [Paper](https://arxiv.org/abs/2404.12378) | [Data](Published_Soon)
+### [Project Page](https://6img-to-3d.github.io/) | [Videos](https://www.youtube.com/@6Img-to-3D) | [Paper](https://arxiv.org/abs/2404.12378) | [Data](Published_Soon)
 
 [6Img-to-3D: Few-Image Large-Scale Outdoor Driving Scene Reconstruction](https://6img-to-3d.github.io/6img-to-3D/)  
  [Theo Gieruc](https://github.com/tgieruc)\*<sup>1</sup><sup>2</sup>, [Marius Kaestingschaefer](https://marius.cx/)\*<sup>1</sup>, [Sebastian Bernhard](https://www.linkedin.com/in/dr-ing-sebastian-bernhard-79a763205/)<sup>1</sup>, [Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann)<sup>2</sup>,
