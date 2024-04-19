@@ -17,11 +17,13 @@ A PyTorch implementation of the 6Img-to-3D model for large-scale outdoor driving
 If you find this code useful, please reference in your paper:
 
 ```
-@article{,
-  title={6Img-to-3D: Few-Image Large-Scale Outdoor Driving Scene Reconstruction},
-  author={},
-  journal={arXiv preprint },
-  year={2024}
+@misc{gieruc20246imgto3d,
+      title={6Img-to-3D: Few-Image Large-Scale Outdoor Driving Scene Reconstruction}, 
+      author={Théo Gieruc and Marius Kästingschäfer and Sebastian Bernhard and Mathieu Salzmann},
+      year={2024},
+      eprint={2404.12378},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 ## 6Img-to-3D
