@@ -47,7 +47,7 @@ conda create -n sixtothree python=3.8
 conda activate sixtothree
 ```
 
-Install PyTorch 2.0.1 with CUDA 11.8 (recommanded), cuda-toolkit and tinycudann.
+Install PyTorch 2.0.1 with CUDA 11.8 (recommended), cuda-toolkit and tinycudann.
 ```bash
 pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118 
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
