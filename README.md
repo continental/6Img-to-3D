@@ -1,6 +1,6 @@
 # 6Img-to-3D
 
-### [Project Page](https://6img-to-3d.github.io/) | [Videos](https://www.youtube.com/@6Img-to-3D) | [Paper](https://arxiv.org/abs/2404.12378) | [Data](Published_Soon)
+### [Project Page](https://6img-to-3d.github.io/) | [Videos](https://www.youtube.com/@6Img-to-3D) | [Paper](https://arxiv.org/abs/2404.12378) | [Data](https://seed4d.github.io/)
 
 [6Img-to-3D: Few-Image Large-Scale Outdoor Driving Scene Reconstruction](https://6img-to-3d.github.io/6img-to-3D/)  
  [Theo Gieruc](https://github.com/tgieruc)\*<sup>1</sup><sup>2</sup>, [Marius Kaestingschaefer](https://marius.cx/)\*<sup>1</sup>, [Sebastian Bernhard](https://www.linkedin.com/in/dr-ing-sebastian-bernhard-79a763205/)<sup>1</sup>, [Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann)<sup>2</sup>,
@@ -14,18 +14,6 @@ A PyTorch implementation of the 6Img-to-3D model for large-scale outdoor driving
   <img src="media\driving.gif" alt="Driving" style="width: 120%;" />
 </p>
 
-If you find this code useful, please reference in your paper:
-
-```
-@misc{gieruc20246imgto3d,
-      title={6Img-to-3D: Few-Image Large-Scale Outdoor Driving Scene Reconstruction}, 
-      author={Théo Gieruc and Marius Kästingschäfer and Sebastian Bernhard and Mathieu Salzmann},
-      year={2024},
-      eprint={2404.12378},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
 ## 6Img-to-3D
 
 Inward and outward-facing camera setups differ significantly in their view overlap. Outward-facing (inside-out) camera setups overlap minimally, whereas inward-facing (outside-in) setups can overlap across multiple cameras.
@@ -140,3 +128,19 @@ python eval.py --py-config ckpts/6Img-to-3D/config.py --resume-from ckpts/6Img-t
 ### License
 Copyright (C) 2024 co-pace GmbH (subsidiary of Continental AG). All rights reserved.
 This repository is licensed under the BSD-3-Clause license. See [LICENSE](./LICENSE) for the full license text.
+
+### Bibtex
+If you find this code useful, please reference in your paper:
+
+```
+@article{gieruc20246imgto3d,
+      title={6Img-to-3D: Few-Image Large-Scale Outdoor Driving Scene Reconstruction}, 
+      author={Théo Gieruc and Marius Kästingschäfer and Sebastian Bernhard and Mathieu Salzmann},
+      year={2024},
+      eprint={2404.12378},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      journal      = {arXiv preprint},
+      volume     = {arXiv:2404.12378},
+}
+```
